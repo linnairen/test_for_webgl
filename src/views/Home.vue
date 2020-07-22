@@ -2,9 +2,9 @@
   <div class="home">
     <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/> -->
-    <div>当前选中人物：{{ selected !== -1 ? (persons[selected] ? persons[selected].Name : '') : '未选中' }}</div>
-    <div>状态：{{ msg }}</div>
-    <Person :Name="it.Name" :HP="it.HP" :MP="it.MP" @click="personDeal(i)" v-for="(it, i) in persons" :key="i" ref="person" />
+    <!-- <div>当前选中人物：{{ selected !== -1 ? (persons[selected] ? persons[selected].Name : '') : '未选中' }}</div> -->
+    <!-- <div>状态：{{ msg }}</div> -->
+    <!-- <Person :Name="it.Name" :HP="it.HP" :MP="it.MP" @click="personDeal(i)" v-for="(it, i) in persons" :key="i" ref="person" /> -->
   </div>
 </template>
 
